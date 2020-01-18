@@ -1,1 +1,23 @@
-.
+body {
+  padding: 0 30px;
+
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+  color: #222222;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+nav {
+  color: #888888;
+}
+
+aside {
+  margin: 20px 0;
+
+  color: #c4c4c4;
+}
