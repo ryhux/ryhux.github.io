@@ -3,7 +3,12 @@ nav {
   background-color: #009e89;
   font-size: 30px;
   text-align: center
-
+}
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  color: #aaaaaa;
+  border-top: 1px solid #aaaaaa;
 }
 
 
