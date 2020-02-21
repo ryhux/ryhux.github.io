@@ -1,0 +1,62 @@
+body, html {
+	/**
+	 * Устанавливаем относительное позиционирование для последующих взаимодействий с элементом
+	 * Ставим шрифт по умолчанию "sans-serif"
+	 * Убираем любые отступы
+	 * Устанавливаем ширину на 100%
+	**/
+	position: relative;
+	font-family: system-ui;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-size: 20px;
+}
+
+html {
+	/* Устанавливаем высоту 100% для документа */
+	height: 100%;
+}
+
+body {
+	/**
+	 * Корректируем минимальную высоту тела сайта для размещения футера
+	 * Устанавливаем цвет фона
+	**/
+	min-height: calc(100% - 50px);
+	background-color: #Ffffff;
+	color: #131313;
+}
+
+header {
+	/**
+	 * Устанавливаем относительное позиционирование для автоматического размещения
+	 * Убираем возможность автоматически переводить текст на новую строку
+	**/
+	position: relative;
+	white-space: nowrap;
+	height: 50px;
+	color: #Ffffff;
+	background: #009e89;
+    box-shadow: 0 0 10px #757575; /* Параметры тени */
+    padding: 10px;
+}
+
+footer {
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+	background-color: #757575;
+	color: #Ffffff;
+	white-space: nowrap;
+	height: 100px;
+}
+main {
+	text-align: center;
+}
+.footer {
+	margin: 10px;
+}
+textarea {
+    resize: none;
+}
