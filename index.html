@@ -1,59 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
- <head>
-	<title>Ryhux</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
-	 <script type="text/javascript">
-function startTime()
-{
-var today=new Date();
-var h=today.getHours();
-var m=today.getMinutes();
-var s=today.getSeconds();
-// add a zero in front of numbers<10
-m=checkTime(m);
-s=checkTime(s);
-document.getElementById('txt').innerHTML=h+":"+m+":"+s;
-t=setTimeout('startTime()',500);
-}
-function checkTime(i)
-{
-if (i<10)
-{
-i="0" + i;
-}
-return i;
-}
-</script>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="indexstyles.css"/>
+    <script type="text/javascript" src="java.js"></script>
+    <title>Ryhux</title>
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ryhuxbase.appspot.com/o/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%E2%80%93%201.png?alt=media&token=d745aa13-67b7-4ee2-9a71-9fb6cf68ed16">
 
-<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+  </head>
 
-<script type="text/javascript">
-  VK.init({apiId: 7425724, onlyWidgets: true});
-</script>
-
-	 <style>.wcomments_head {
-background-color: #009e89 !important;
-}</style>
-</head>
- <body onload="startTime()">
-  <header>
- 	<p>Ryhux</p>
-  </header>
-  <main>
-  	<h4>Текущее время:
-<div id="txt"></div></h4>
-
-<div id="vk_comments"></div>
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-</script>
-   
-
-  </main>
-  <footer>
-	<p class="footer">RyhuxStudios 2019-2020</p>        
-	<script class="statistics" type="text/javascript">
+  <body>
+<header>
+  <p class="header"><b>Главная</b></p>
+</header>
+    <div id="i_logo">
+      <img src="https://firebasestorage.googleapis.com/v0/b/ryhuxbase.appspot.com/o/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%E2%80%93%201.png?alt=media&token=d745aa13-67b7-4ee2-9a71-9fb6cf68ed16" width="100dp">
+    </div>
+    <div id="l_download"><h2 id="t_download"class="title"><b>Скачать Ryhux</b></h2>
+    <p>Последняя на данный момент версия 1.0.1</p>
+    <a id="b_download" href="downloadupdate.html">Скачать</a>
+    <div id="changes"><p id="t_changes">
+      <b>Изменения: 1.0.1:</b>
+      <br>
+      Встречайте чаты!<br>Можно писать сообщения человеку лично, а можно в групповой чат.<br>Изменен вид профилей, обновлен интерфейс, изменены иконки.
+          <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+    </p>
+  </div>
+</div>
+<div id="attachments"><a class="attach" href="https://sun9-24.userapi.com/impf/6VIEYVug1ItEKlzgUrj1HzeCuvbthwIufZtg2Q/kagxV8yUo00.jpg?size=757x1600&quality=96&proxy=1&sign=7afd81ce8fe6e20aaef09132e551878c&type=album" target="_blank"><img src="https://sun9-24.userapi.com/impf/6VIEYVug1ItEKlzgUrj1HzeCuvbthwIufZtg2Q/kagxV8yUo00.jpg?size=757x1600&quality=96&proxy=1&sign=7afd81ce8fe6e20aaef09132e551878c&type=album" width="100px"></a>
+<a class="attach" href="https://sun9-15.userapi.com/impf/49ewTifBLhQeV2QYu0s7-JI8magrVw5qLiYD9w/Y-bIlGcBV7c.jpg?size=757x1600&quality=96&proxy=1&sign=06fb23d10cd09804e99a741a4b4b42da&type=album" target="_blank"><img src="https://sun9-15.userapi.com/impf/49ewTifBLhQeV2QYu0s7-JI8magrVw5qLiYD9w/Y-bIlGcBV7c.jpg?size=757x1600&quality=96&proxy=1&sign=06fb23d10cd09804e99a741a4b4b42da&type=album" width="100px"></a>
+<a class="attach" href="https://sun9-56.userapi.com/impf/onPau89gu3_9x4yJPQTPsr8PJqQEa7BOugkrVA/CxzCXfmwTUg.jpg?size=757x1600&quality=96&proxy=1&sign=a8100ef8a347bb2edde1784d188501fb&type=album" target="_blank"><img src="https://sun9-56.userapi.com/impf/onPau89gu3_9x4yJPQTPsr8PJqQEa7BOugkrVA/CxzCXfmwTUg.jpg?size=757x1600&quality=96&proxy=1&sign=a8100ef8a347bb2edde1784d188501fb&type=album" width="100px"></a>
+<a class="attach" href="https://sun9-65.userapi.com/impf/x-fdp0hRPlibnlahveBb9JF1UA9kEZ2yXtDBzA/Cd7u03e-a8U.jpg?size=757x1600&quality=96&proxy=1&sign=6cac21da8192d1267b8582cf6f39a95f&type=album" target="_blank"><img src="https://sun9-65.userapi.com/impf/x-fdp0hRPlibnlahveBb9JF1UA9kEZ2yXtDBzA/Cd7u03e-a8U.jpg?size=757x1600&quality=96&proxy=1&sign=6cac21da8192d1267b8582cf6f39a95f&type=album" width="100px"></a></div>
+<footer><div><p>RyhuxStudios 2019-2020</p>
+  <script class="statistics" type="text/javascript">
       document.write('<a href="//www.liveinternet.ru/click" '+
       'target="_blank"><img src="//counter.yadro.ru/hit?t26.13;r'+
        escape(document.referrer)+((typeof(screen)=='undefined')?'':
@@ -61,11 +40,8 @@ VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
        screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
        ';h'+escape(document.title.substring(0,150))+';'+Math.random()+
        '" alt="" title="LiveInternet: показано число посетителей за'+
-       ' сегодня" '+
-       'border="0" width="88" height="15"><\/a>')
-    </script><!--/LiveInternet--><p class="footer">По всем вопросам писать на почту ryhux.studio@gmail.com или группе вконтакте <a href="https://vk.me/ryhuxstudios">@ryhuxstudios</a>
-	  </p>
-	  
-  </footer>
- </body>
+       ' сегодня")
+    </script><!--/LiveInternet--></div>
+</footer>
+  </body>
 </html>

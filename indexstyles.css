@@ -22,6 +22,30 @@ footer{
 header{
   margin: 0;
 }
+.header {
+  color: #009e89;
+  font-size: 20px;
+  margin: 10px;
+
+}
+#changes{
+  text-align: left;
+}
+#i_logo{
+
+
+
+
+
+    text-align: center;
+
+}
+
+#t_changes{
+  font-size: 14px;
+  text-align: center;
+
+}
 #b_download{
   border-radius: 20px;
   background-color: #009e89;
@@ -35,20 +59,28 @@ header{
   text-decoration: none;
   padding: 8px;
 }
-#download {
+#l_download{
   text-align: center;
 }
-.header {
-  color: #009e89;
-  font-size: 20px;
-  margin: 10px;
-
-}
-.title {
-  color: #009e89;
+#attachments{
   text-align: center;
+
+}
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #009e89;
+    margin: 0; padding: 0; }
+footer{
+  background-color: #009e89;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0px;
+  padding: 16px;
+  color: #ffffff;
 }
 
-h2{
-
+p {
+  padding: 8px;
+}
+.attach:hover {
+  background-color: #009e89;
 }
