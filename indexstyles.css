@@ -25,7 +25,12 @@ header{
 .header {
   color: #009e89;
   font-size: 20px;
-  margin: 10px;
+  margin: 0px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  box-shadow: 0 1px rgba(0,0,0,.1);
 
 }
 #changes{
@@ -36,7 +41,7 @@ header{
 
 
 
-
+  margin-top: 20px;
     text-align: center;
 
 }
@@ -59,7 +64,7 @@ header{
   text-decoration: none;
   padding: 8px;
 }
-#l_download{
+.l_download{
   text-align: center;
 }
 #attachments{
@@ -80,6 +85,16 @@ footer{
 
 p {
   padding: 8px;
+}
+a {
+  color: #009e89;
+  text-decoration: none;
+}
+a:hover{
+
+  color: #16c7b0;
+  text-decoration: none;
+
 }
 .attach:hover {
   background-color: #009e89;
