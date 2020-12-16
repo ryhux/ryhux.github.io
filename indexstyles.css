@@ -99,3 +99,39 @@ a:hover{
 .attach:hover {
   background-color: #009e89;
 }
+.footer_text{
+  color: #fff;
+
+
+}
+.footer_text:hover{
+  color: #fff;
+
+}
+.wrapper {
+  display: flex;
+}
+
+.wrapper div:first-child, .wrapper p:first-child {
+  flex: 1;
+}
+.wrapper div:nth-child(2) {
+  flex: 2;
+  text-align: center;
+}
+.textfooter{
+  padding: 0;
+  margin: 0;
+}
+#licnt15E8{
+  display: flex;
+}
+.questions{
+  color: #fff;
+  text-decoration:  none;
+
+}
+.questions:hover{
+  color: #fff;
+  text-decoration: underline;
+}
