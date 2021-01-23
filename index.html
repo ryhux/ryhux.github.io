@@ -47,7 +47,7 @@
   </div>
 </div>
 <footer>
-  <div class="wrapper"><p class="textfooter">RyhuxStudios 2019-2021<a href="https://www.liveinternet.ru/click"
+  <div class="wrapper"><div class="textfooter">RyhuxStudios 2019-2021<a href="https://www.liveinternet.ru/click"
 target="_blank"><img id="licnt15E8" width="88" height="15" style="border:0"
 title="LiveInternet: показано число посетителей за сегодня"
 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
@@ -56,7 +56,28 @@ alt=""/></a><script>(function(d,s){d.getElementById("licnt15E8").src=
 ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
 (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
 ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
-(document,screen)</script><!--/LiveInternet--></p><div class="footer_text">По вопросам писать во <a class="questions" href="https://vk.me/ryhuxstudios">Вконтакте</a></div></div>
+(document,screen)</script><!--/LiveInternet--><div id="ok_shareWidget"></div>
+<script>
+!function (d, id, did, st, title, description, image) {
+  function init(){
+    OK.CONNECT.insertShareWidget(id,did,st, title, description, image);
+  }
+  if (!window.OK || !OK.CONNECT || !OK.CONNECT.insertShareWidget) {
+    var js = d.createElement("script");
+    js.src = "https://connect.ok.ru/connect.js";
+    js.onload = js.onreadystatechange = function () {
+    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+      if (!this.executed) {
+        this.executed = true;
+        setTimeout(init, 0);
+      }
+    }};
+    d.documentElement.appendChild(js);
+  } else {
+    init();
+  }
+}(document,"ok_shareWidget","ryhux.github.io",'{"sz":30,"st":"oval","ck":1,"bgclr":"FFFFFF","txclr":"009D88"}',"","","");
+</script></div><div class="footer_text">По вопросам писать во <a class="questions" href="https://vk.me/ryhuxstudios">Вконтакте</a></div></div>
 
 </footer>
   </body>
