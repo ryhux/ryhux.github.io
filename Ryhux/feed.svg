@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-feed">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="feed" clip-path="url(#clip-feed)">
+    <g id="Прямоугольник_1" data-name="Прямоугольник 1" transform="translate(126 119)" fill="none" stroke="#009e89" stroke-width="50">
+      <rect width="749" height="762" rx="135" stroke="none"/>
+      <rect x="25" y="25" width="699" height="712" rx="110" fill="none"/>
+    </g>
+    <line id="Линия_1" data-name="Линия 1" y1="1" x2="697" transform="translate(168.5 357.5)" fill="none" stroke="#009e89" stroke-width="50"/>
+  </g>
+</svg>
